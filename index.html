@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DécouvrAssur | Comparez les meilleures assurances au Québec</title>
+  <meta name="description" content="Comparez les meilleures assurances vie, auto et habitation au Québec. Obtenez votre soumission gratuite en moins de 2 minutes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="mainNav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="assurance-auto-habitation.html">Auto & Habitation</a></li>
+        <li><a href="assurance-vie.html">Assurance vie</a></li>
+        <li><a href="guides.html">Guides & conseils</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="soumission-rapide.html" class="nav-cta">Soumission rapide</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <div>
+        <div class="hero-badge"><div class="badge-dot"></div>Québec · Service 100% gratuit</div>
+        <h1>Découvrez l'assurance <em>qu'il vous faut</em>, au meilleur prix</h1>
+        <p class="hero-sub">Comparez les meilleures offres d'assurance vie, auto et habitation au Québec. Soumission gratuite en moins de 2 minutes, sans engagement.</p>
+        <div class="hero-stats">
+          <div><div class="stat-num">2 min</div><div class="stat-label">Pour une soumission</div></div>
+          <div><div class="stat-num">0 $</div><div class="stat-label">Service gratuit</div></div>
+          <div><div class="stat-num">100%</div><div class="stat-label">Sans engagement</div></div>
+        </div>
+        <div class="hero-cta-group">
+          <a href="soumission-rapide.html" class="btn-primary">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            Obtenir ma soumission
+          </a>
+          <a href="#services" class="btn-secondary">
+            Voir nos services
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-cards">
+        <a href="assurance-vie.html" class="hero-card">
+          <img class="hero-card-img" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=180&h=120&fit=crop&auto=format" alt="Famille protégée" />
+          <div class="hero-card-body"><div class="card-title">Assurance vie</div><div class="card-desc">Protégez ceux que vous aimez, quoi qu'il arrive</div></div>
+          <div class="card-arrow"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </a>
+        <a href="assurance-auto-habitation.html" class="hero-card">
+          <img class="hero-card-img" src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=180&h=120&fit=crop&auto=format" alt="Voiture assurée" />
+          <div class="hero-card-body"><div class="card-title">Assurance auto</div><div class="card-desc">Roulez l'esprit tranquille au meilleur prix</div></div>
+          <div class="card-arrow"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </a>
+        <a href="assurance-auto-habitation.html" class="hero-card">
+          <img class="hero-card-img" src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=180&h=120&fit=crop&auto=format" alt="Maison familiale" />
+          <div class="hero-card-body"><div class="card-title">Assurance habitation</div><div class="card-desc">Propriétaire ou locataire, on vous protège</div></div>
+          <div class="card-arrow"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust-bar">
+    <div class="trust-inner">
+      <div class="trust-item"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Conseillers certifiés AMF</div>
+      <div class="trust-item"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>Données 100% sécurisées</div>
+      <div class="trust-item"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>Rappel rapide garanti</div>
+      <div class="trust-item"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Service entièrement gratuit</div>
+      <div class="trust-item"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>100% Québec</div>
+    </div>
+  </div>
+
+  <section class="how">
+    <div class="section-inner">
+      <div class="how-header fade-in">
+        <span class="section-label">Comment ça fonctionne</span>
+        <h2 class="section-title">Simple. Rapide. <em>Efficace.</em></h2>
+        <p class="section-sub">Obtenez les meilleures options d'assurance au Québec en 3 étapes simples, sans complication.</p>
+      </div>
+      <div class="steps">
+        <div class="step fade-in"><div class="step-num">1</div><h3>Remplissez le formulaire</h3><p>Complétez votre demande de soumission en moins de 2 minutes. Simple, rapide, et conçu pour vous faciliter la vie.</p></div>
+        <div class="step fade-in" style="transition-delay:0.15s"><div class="step-num">2</div><h3>Recevez vos options</h3><p>Découvrez les meilleures propositions adaptées à vos besoins et comparez facilement les prix et protections.</p></div>
+        <div class="step fade-in" style="transition-delay:0.3s"><div class="step-num">3</div><h3>Choisissez & économisez</h3><p>Sélectionnez la couverture qui vous convient au meilleur prix et profitez d'une protection adaptée dès aujourd'hui.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="section-inner">
+      <div class="services-header fade-in">
+        <span class="section-label">Nos services</span>
+        <h2 class="section-title">Comparez et découvrez <em>vos options</em></h2>
+        <p class="section-sub">Trois types d'assurance, une seule plateforme. Trouvez la meilleure protection pour votre réalité au Québec.</p>
+      </div>
+      <div class="service-cards">
+        <div class="service-card fade-in">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop&auto=format" alt="Famille heureuse protégée par assurance vie" />
+            <div class="service-img-overlay"></div>
+            <div class="service-img-tag"><svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Assurance vie</div>
+          </div>
+          <div class="service-body">
+            <h3>Protégez ceux que vous aimez</h3>
+            <p>Assurez la sécurité financière de vos proches grâce à une assurance vie adaptée à votre réalité. Famille, hypothèque, revenu — on trouve la solution.</p>
+            <ul class="service-features">
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Temporaire & permanente</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Maladies graves & invalidité</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Meilleurs assureurs comparés</li>
+            </ul>
+            <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" class="btn-service btn-vie" target="_blank">Obtenir ma soumission <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+          </div>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.15s">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&h=400&fit=crop&auto=format" alt="Voiture sur route" />
+            <div class="service-img-overlay"></div>
+            <div class="service-img-tag"><svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Assurance auto</div>
+          </div>
+          <div class="service-body">
+            <h3>Roulez l'esprit tranquille</h3>
+            <p>Découvrez les meilleures assurances auto au Québec. Protection complète pour votre véhicule, au meilleur prix du marché.</p>
+            <ul class="service-features">
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Responsabilité civile & collision</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Protection tous risques disponible</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Meilleurs tarifs du marché</li>
+            </ul>
+            <a href="https://gcentrepreneuriat.github.io/comparateur-assurance-auto/" class="btn-service btn-auto" target="_blank">Obtenir ma soumission <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+          </div>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.3s">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&h=400&fit=crop&auto=format" alt="Maison familiale" />
+            <div class="service-img-overlay"></div>
+            <div class="service-img-tag"><svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>Assurance habitation</div>
+          </div>
+          <div class="service-body">
+            <h3>Protégez votre chez-vous</h3>
+            <p>Propriétaire ou locataire, découvrez les meilleures protections habitation et les meilleurs prix au Québec.</p>
+            <ul class="service-features">
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Propriétaires & locataires</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Protection contre les dommages</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Responsabilité civile incluse</li>
+            </ul>
+            <a href="https://gcentrepreneuriat.github.io/comparateur-assurance-habitation/" class="btn-service btn-hab" target="_blank">Obtenir ma soumission <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="section-inner">
+      <div class="why-inner">
+        <div>
+          <span class="section-label">Pourquoi DécouvrAssur</span>
+          <h2 class="section-title">Protéger ce qui compte vraiment, <em>tout en économisant</em></h2>
+          <p class="section-sub">Chez DécouvrAssur, nous rendons la recherche d'assurance simple, transparente et accessible à tous les Québécois.</p>
+          <div class="why-points">
+            <div class="why-point fade-in"><div class="point-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><div class="point-text"><h4>Rapide et sans tracas</h4><p>Un formulaire de 2 minutes, un rappel rapide. Pas de longues attentes ni de paperasse inutile.</p></div></div>
+            <div class="why-point fade-in" style="transition-delay:0.1s"><div class="point-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><div class="point-text"><h4>Adapté à votre réalité</h4><p>Des solutions personnalisées selon votre situation, votre budget et vos besoins réels.</p></div></div>
+            <div class="why-point fade-in" style="transition-delay:0.2s"><div class="point-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div><div class="point-text"><h4>Expertise certifiée AMF</h4><p>Nos conseillers sont certifiés et réglementés au Québec. Vous êtes entre bonnes mains.</p></div></div>
+            <div class="why-point fade-in" style="transition-delay:0.3s"><div class="point-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div class="point-text"><h4>100% gratuit, sans engagement</h4><p>Notre service est entièrement gratuit. Vous n'avez aucune obligation de suite.</p></div></div>
+          </div>
+        </div>
+        <div class="why-visual fade-in">
+          <h3>Nos engagements</h3>
+          <div class="guarantee-list">
+            <div class="guarantee-item"><div class="guarantee-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div><div class="guarantee-text"><strong>Meilleur prix garanti</strong><span>On compare pour vous trouver la meilleure offre du marché</span></div></div>
+            <div class="guarantee-item"><div class="guarantee-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div class="guarantee-text"><strong>Rappel en moins de 24h</strong><span>Un conseiller vous contacte rapidement après votre demande</span></div></div>
+            <div class="guarantee-item"><div class="guarantee-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><div class="guarantee-text"><strong>Conseils sans biais</strong><span>Nous travaillons pour vous, pas pour les assureurs</span></div></div>
+            <div class="guarantee-item"><div class="guarantee-icon"><svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><div class="guarantee-text"><strong>Expertise locale Québec</strong><span>Nous connaissons le marché québécois sur le bout des doigts</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Prêt à obtenir votre soumission gratuite?</h2>
+      <p>Rejoignez des centaines de Québécois qui ont trouvé la meilleure protection grâce à DécouvrAssur.</p>
+      <div class="cta-buttons">
+        <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" class="btn-cta" target="_blank"><svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Assurance vie</a>
+        <a href="https://gcentrepreneuriat.github.io/comparateur-assurance-auto/" class="btn-cta" target="_blank"><svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Assurance auto</a>
+        <a href="https://gcentrepreneuriat.github.io/comparateur-assurance-habitation/" class="btn-cta" target="_blank"><svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>Assurance habitation</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /><p class="footer-desc">La plateforme de comparaison d'assurances au Québec. Simple, rapide et entièrement gratuit.</p></div>
+        <div class="footer-col"><h4>Assurances</h4><ul class="footer-links"><li><a href="assurance-vie.html">Assurance vie</a></li><li><a href="assurance-auto-habitation.html">Assurance auto</a></li><li><a href="assurance-auto-habitation.html">Assurance habitation</a></li></ul></div>
+        <div class="footer-col"><h4>Ressources</h4><ul class="footer-links"><li><a href="guides.html">Guides & conseils</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="soumission-rapide.html">Soumission rapide</a></li></ul></div>
+        <div class="footer-col"><h4>Légal</h4><ul class="footer-links"><li><a href="politique-confidentialite.html">Politique de confidentialité</a></li><li><a href="termes-conditions.html">Termes et conditions</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 DécouvrAssur. Tous droits réservés. Service offert au Québec.</p>
+        <div class="footer-legal"><a href="politique-confidentialite.html">Confidentialité</a><a href="termes-conditions.html">Conditions</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

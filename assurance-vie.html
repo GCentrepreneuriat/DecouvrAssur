@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assurance Vie au Québec | DécouvrAssur</title>
+  <meta name="description" content="Trouvez la meilleure assurance vie au Québec. Temporaire, permanente, maladies graves, invalidité. Soumission gratuite en 2 minutes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="mainNav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="assurance-auto-habitation.html">Auto & Habitation</a></li>
+        <li><a href="assurance-vie.html" class="active">Assurance vie</a></li>
+        <li><a href="guides.html">Guides & conseils</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="soumission-rapide.html" class="nav-cta">Soumission rapide</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-grid"></div>
+    <div class="page-hero-inner">
+      <div class="hero-badge"><div class="badge-dot"></div>Assurance vie · Québec</div>
+      <h1>Protégez ceux que vous aimez, <em>quoi qu'il arrive</em></h1>
+      <p class="page-hero-sub">Assurez la sécurité financière de votre famille avec une assurance vie adaptée à votre réalité. Temporaire, permanente, maladies graves, invalidité — on vous aide à choisir intelligemment.</p>
+      <div class="hero-cta-group">
+        <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" target="_blank" class="btn-primary">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          Ma soumission gratuite
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPES D'ASSURANCE VIE -->
+  <section class="services">
+    <div class="section-inner">
+      <div class="services-header fade-in" style="text-align:center;">
+        <span class="section-label">Types d'assurance vie</span>
+        <h2 class="section-title">Trouvez la solution <em>faite pour vous</em></h2>
+        <p class="section-sub" style="margin:0 auto;">Chaque situation est unique. Voici les principaux types d'assurance vie disponibles au Québec.</p>
+      </div>
+      <div class="service-cards">
+        <div class="service-card fade-in">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=600&h=400&fit=crop&auto=format" alt="Famille temporaire" />
+            <div class="service-img-overlay"></div>
+            <div class="service-img-tag">Temporaire</div>
+          </div>
+          <div class="service-body">
+            <h3>Assurance vie temporaire</h3>
+            <p>Protection à coût abordable pour une période déterminée (10, 20, 30 ans). Idéale pour couvrir une hypothèque, un prêt ou les années où vos enfants sont à charge.</p>
+            <ul class="service-features">
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Prime fixe garantie</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Coût mensuel le plus bas</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Convertible en permanente</li>
+            </ul>
+            <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" target="_blank" class="btn-service btn-vie">Obtenir une soumission <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+          </div>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.15s">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&h=400&fit=crop&auto=format" alt="Famille permanente" />
+            <div class="service-img-overlay"></div>
+            <div class="service-img-tag">Permanente</div>
+          </div>
+          <div class="service-body">
+            <h3>Assurance vie permanente</h3>
+            <p>Protection à vie avec valeur de rachat accumulée. Parfaite pour la planification successorale, le transfert de patrimoine et les entrepreneurs qui cherchent une stratégie fiscale avancée.</p>
+            <ul class="service-features">
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Protection à vie garantie</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Valeur de rachat croissante</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Avantages fiscaux stratégiques</li>
+            </ul>
+            <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" target="_blank" class="btn-service btn-vie">Obtenir une soumission <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+          </div>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.3s">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop&auto=format" alt="Santé et protection" />
+            <div class="service-img-overlay"></div>
+            <div class="service-img-tag">Santé</div>
+          </div>
+          <div class="service-body">
+            <h3>Maladies graves & invalidité</h3>
+            <p>Un diagnostic de cancer, infarctus ou AVC peut bouleverser votre vie financière. Ces protections vous versent un montant forfaitaire ou un revenu mensuel pour vous permettre de vous concentrer sur votre guérison.</p>
+            <ul class="service-features">
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Plus de 25 maladies couvertes</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Remboursement de primes possible</li>
+              <li><span class="check-icon"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Protection revenu d'invalidité</li>
+            </ul>
+            <a href="#" onclick="event.preventDefault(); openMaladiesGravesModal();" class="btn-service btn-vie">Parler à un conseiller <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></a>
+
+  <!-- POUR QUI -->
+  <section class="detail-section">
+    <div class="section-inner">
+      <div class="detail-grid">
+        <div class="fade-in">
+          <span class="section-label">Pour qui?</span>
+          <h2 class="section-title">Une assurance vie, <em>mais pour quoi faire?</em></h2>
+          <p class="section-sub">L'assurance vie n'est pas un luxe, c'est un pilier de planification financière. Voici les situations où elle devient essentielle.</p>
+          <ul class="detail-list">
+            <li><span class="detail-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Jeunes familles</strong><p>Remplacer votre revenu et protéger l'avenir de vos enfants en cas de coup dur</p></div></li>
+            <li><span class="detail-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Propriétaires hypothécaires</strong><p>S'assurer que votre maison soit payée à 100% pour votre conjoint et vos enfants</p></div></li>
+            <li><span class="detail-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Entrepreneurs & travailleurs autonomes</strong><p>Protéger votre entreprise, planifier la relève et créer de la valeur corporative</p></div></li>
+            <li><span class="detail-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Planification successorale</strong><p>Minimiser les impôts au décès et laisser un patrimoine net à vos héritiers</p></div></li>
+          </ul>
+          <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" target="_blank" class="btn-primary">Discuter de ma situation
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+        <div class="detail-visual fade-in">
+          <img src="https://images.unsplash.com/photo-1511895426328-dc8714191011?w=800&h=1000&fit=crop&auto=format" alt="Famille québécoise protégée" />
+          <div class="detail-visual-badge">
+            <div class="visual-badge-num">1M$</div>
+            <div class="visual-badge-text">de protection<br/>dès 25$/mois*</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-band">
+    <div class="section-inner">
+      <div class="stats-grid">
+        <div class="stat-card fade-in"><div class="stat-big">25+</div><div class="stat-desc">maladies graves couvertes par nos contrats</div></div>
+        <div class="stat-card fade-in" style="transition-delay:0.1s"><div class="stat-big">10+</div><div class="stat-desc">assureurs québécois comparés pour vous</div></div>
+        <div class="stat-card fade-in" style="transition-delay:0.2s"><div class="stat-big">0 $</div><div class="stat-desc">coût du service de comparaison</div></div>
+        <div class="stat-card fade-in" style="transition-delay:0.3s"><div class="stat-big">AMF</div><div class="stat-desc">Conseillers certifiés et réglementés</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="section-inner">
+      <div class="faq-header fade-in">
+        <span class="section-label">Questions fréquentes</span>
+        <h2 class="section-title">Tout ce qu'il faut <em>savoir</em></h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item fade-in"><summary><span>Combien d'assurance vie me faut-il?</span><svg class="faq-icon" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg></summary><div class="faq-body">La règle générale est de couvrir 7 à 10 fois votre revenu annuel, plus vos dettes. Mais chaque situation est unique: hypothèque, enfants, conjoint à charge, objectifs successoraux. Un conseiller certifié DécouvrAssur calcule précisément vos besoins gratuitement.</div></details>
+        <details class="faq-item fade-in"><summary><span>Temporaire ou permanente: laquelle choisir?</span><svg class="faq-icon" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg></summary><div class="faq-body">La temporaire est idéale pour couvrir des besoins à durée limitée (hypothèque, enfants à charge) à faible coût. La permanente est pertinente pour la planification successorale, les transferts de patrimoine et les stratégies fiscales d'entreprise. Une combinaison des deux est souvent optimale.</div></details>
+        <details class="faq-item fade-in"><summary><span>Dois-je passer un examen médical?</span><svg class="faq-icon" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg></summary><div class="faq-body">Pas toujours. Pour de petits montants ou selon votre âge, plusieurs assureurs offrent des contrats sans examen médical (sélection simplifiée). Pour des montants plus élevés, un examen gratuit à domicile peut être requis. Nous vous accompagnons dans toutes les étapes.</div></details>
+        <details class="faq-item fade-in"><summary><span>Les fumeurs peuvent-ils être assurés?</span><svg class="faq-icon" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg></summary><div class="faq-body">Oui, mais les primes sont généralement plus élevées. Bonne nouvelle: après 12 mois sans fumer, vous pouvez souvent faire révéiser votre dossier et obtenir le tarif non-fumeur. Cette optimisation peut faire économiser des milliers de dollars.</div></details>
+        <details class="faq-item fade-in"><summary><span>Mon assurance vie couvre-t-elle l'invalidité?</span><svg class="faq-icon" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg></summary><div class="faq-body">Non, l'assurance vie couvre le décès. L'invalidité est une protection distincte qui remplace une partie de votre revenu si vous ne pouvez plus travailler. Les maladies graves versent un montant forfaitaire suite à un diagnostic. Ces trois protections sont complémentaires.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Votre famille mérite d'être protégée</h2>
+      <p>Une soumission gratuite, confidentielle, en moins de 2 minutes.</p>
+      <div class="cta-buttons">
+        <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" target="_blank" class="btn-cta"><svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>Ma soumission gratuite</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /><p class="footer-desc">La plateforme de comparaison d'assurances au Québec. Simple, rapide et entièrement gratuit.</p></div>
+        <div class="footer-col"><h4>Assurances</h4><ul class="footer-links"><li><a href="assurance-vie.html">Assurance vie</a></li><li><a href="assurance-auto-habitation.html">Assurance auto</a></li><li><a href="assurance-auto-habitation.html">Assurance habitation</a></li></ul></div>
+        <div class="footer-col"><h4>Ressources</h4><ul class="footer-links"><li><a href="guides.html">Guides & conseils</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="soumission-rapide.html">Soumission rapide</a></li></ul></div>
+        <div class="footer-col"><h4>Légal</h4><ul class="footer-links"><li><a href="politique-confidentialite.html">Politique de confidentialité</a></li><li><a href="termes-conditions.html">Termes et conditions</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 DécouvrAssur. Tous droits réservés. Service offert au Québec. * Exemple à titre indicatif seulement.</p>
+        <div class="footer-legal"><a href="politique-confidentialite.html">Confidentialité</a><a href="termes-conditions.html">Conditions</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       POP-UP MALADIES GRAVES & INVALIDITÉ
+       Produits complexes → capture de lead qualifié pour consultation AMF
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <style>
+    .mg-modal-backdrop {
+      position: fixed; inset: 0;
+      background: rgba(11,31,58,0.75);
+      backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+      z-index: 300;
+      display: none;
+      align-items: center; justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .mg-modal-backdrop.open { display: flex; opacity: 1; }
+    body.mg-modal-open { overflow: hidden; }
+
+    .mg-modal {
+      background: var(--white);
+      border-radius: 16px;
+      max-width: 540px; width: 100%;
+      max-height: 92vh; overflow-y: auto;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(11,31,58,0.25);
+      transform: translateY(30px) scale(0.96);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .mg-modal-backdrop.open .mg-modal { transform: translateY(0) scale(1); }
+
+    .mg-modal-header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, #0D2D5E 100%);
+      padding: 28px 32px 24px;
+      color: var(--white);
+      position: relative;
+      border-radius: 16px 16px 0 0;
+      overflow: hidden;
+    }
+    .mg-modal-header::before {
+      content: ''; position: absolute; top: -80px; right: -80px;
+      width: 240px; height: 240px;
+      background: radial-gradient(circle, rgba(245,166,35,0.18), transparent 70%);
+      pointer-events: none;
+    }
+    .mg-modal-label {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: rgba(245,166,35,0.15);
+      border: 1px solid rgba(245,166,35,0.35);
+      color: var(--accent);
+      padding: 5px 13px; border-radius: 100px;
+      font-size: 11px; font-weight: 700;
+      font-family: 'Sora', sans-serif;
+      text-transform: uppercase; letter-spacing: 1.2px;
+      margin-bottom: 14px;
+      position: relative; z-index: 1;
+    }
+    .mg-modal-title {
+      font-size: 22px; font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 6px;
+      font-family: 'Sora', sans-serif;
+      position: relative; z-index: 1;
+    }
+    .mg-modal-subtitle {
+      font-size: 14px; color: rgba(255,255,255,0.7);
+      line-height: 1.5;
+      position: relative; z-index: 1;
+    }
+
+    .mg-modal-close {
+      position: absolute; top: 16px; right: 16px;
+      width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      cursor: pointer; z-index: 5;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--white);
+      transition: all 0.2s;
+    }
+    .mg-modal-close:hover { background: var(--white); color: var(--navy); transform: rotate(90deg); }
+
+    .mg-modal-body {
+      padding: 28px 32px 32px;
+    }
+
+    .mg-info-block {
+      background: rgba(245,166,35,0.07);
+      border: 1px solid rgba(245,166,35,0.22);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 22px;
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .mg-info-block strong { color: var(--navy); font-weight: 700; }
+
+    .mg-benefits {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+      margin-bottom: 22px;
+    }
+    .mg-benefit {
+      display: flex; align-items: flex-start; gap: 8px;
+      font-size: 13px; color: var(--text);
+      line-height: 1.4;
+    }
+    .mg-benefit-icon {
+      width: 20px; height: 20px; border-radius: 50%;
+      background: rgba(34,197,94,0.15);
+      color: #22C55E;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 1px;
+    }
+
+    .mg-form-title {
+      font-size: 15px; font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 14px;
+      font-family: 'Sora', sans-serif;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .mg-form-title svg { color: var(--accent); }
+
+    .mg-form-group { margin-bottom: 12px; }
+    .mg-form-group label {
+      display: block; font-size: 12px; font-weight: 600;
+      color: var(--text); margin-bottom: 6px;
+      font-family: 'Sora', sans-serif;
+    }
+    .mg-form-group input {
+      width: 100%; padding: 12px 14px;
+      border: 2px solid #EEF2F7; border-radius: 10px;
+      font-size: 14px; font-family: 'Inter', sans-serif;
+      color: var(--text); background: var(--white);
+      transition: border-color 0.2s; outline: none;
+    }
+    .mg-form-group input:focus { border-color: var(--blue, #1A5FA8); }
+    .mg-form-group input.error { border-color: #EF4444; }
+    .mg-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+    .mg-submit-btn {
+      width: 100%;
+      padding: 15px; margin-top: 6px;
+      background: var(--accent); color: var(--navy);
+      font-family: 'Sora', sans-serif;
+      font-weight: 800; font-size: 14.5px;
+      border: none; border-radius: 10px;
+      cursor: pointer; transition: all 0.2s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .mg-submit-btn:hover:not(:disabled) {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(245,166,35,0.35);
+    }
+    .mg-submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    .mg-disclaimer {
+      font-size: 11.5px; color: var(--text-light);
+      line-height: 1.5; margin-top: 12px;
+      display: flex; align-items: flex-start; gap: 6px;
+    }
+    .mg-disclaimer svg { color: var(--blue, #1A5FA8); flex-shrink: 0; margin-top: 1px; }
+
+    /* SUCCESS STATE */
+    .mg-success { display: none; text-align: center; padding: 20px 0; }
+    .mg-success.show { display: block; animation: mgFadeIn 0.4s ease; }
+    @keyframes mgFadeIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+    .mg-success-icon {
+      width: 72px; height: 72px;
+      background: rgba(34,197,94,0.15);
+      color: #22C55E;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 18px;
+    }
+    .mg-success h3 {
+      font-size: 20px; font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 10px;
+      font-family: 'Sora', sans-serif;
+    }
+    .mg-success p {
+      font-size: 14px; color: var(--text-light);
+      line-height: 1.6;
+      max-width: 400px; margin: 0 auto 18px;
+    }
+    .mg-success-close-btn {
+      padding: 11px 26px;
+      background: var(--navy); color: var(--white);
+      font-family: 'Sora', sans-serif;
+      font-weight: 700; font-size: 13px;
+      border: none; border-radius: 8px;
+      cursor: pointer; transition: background 0.2s;
+    }
+    .mg-success-close-btn:hover { background: #1A5FA8; }
+
+    @media(max-width:560px) {
+      .mg-modal-header { padding: 22px 22px 20px; }
+      .mg-modal-body { padding: 22px 22px 24px; }
+      .mg-modal-title { font-size: 19px; }
+      .mg-benefits { grid-template-columns: 1fr; }
+      .mg-form-row { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <div class="mg-modal-backdrop" id="mgModal" role="dialog" aria-modal="true" aria-labelledby="mgModalTitle">
+    <div class="mg-modal">
+      <button class="mg-modal-close" onclick="closeMaladiesGravesModal()" aria-label="Fermer">
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+
+      <div class="mg-modal-header">
+        <div class="mg-modal-label">
+          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          Produit spécialisé · Conseiller AMF
+        </div>
+        <h2 class="mg-modal-title" id="mgModalTitle">Assurance maladies graves & invalidité</h2>
+        <p class="mg-modal-subtitle">Ces protections sont plus complexes qu'une assurance standard. Une analyse personnalisée avec un conseiller certifié est essentielle.</p>
+      </div>
+
+      <div class="mg-modal-body">
+
+        <!-- État initial : info + form -->
+        <div id="mgFormContent">
+
+          <div class="mg-info-block">
+            <strong>Pourquoi parler à un conseiller?</strong> Le choix entre maladies graves et invalidité (ou les deux), la durée de couverture, le montant, les maladies incluses et les clauses d'exclusion varient énormément selon votre profil. Un <strong>conseiller certifié auprès de l'AMF</strong> analysera votre situation, vos revenus, votre famille et vos protections existantes pour vous recommander la meilleure combinaison.
+          </div>
+
+          <div class="mg-benefits">
+            <div class="mg-benefit">
+              <div class="mg-benefit-icon"><svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div>Consultation <strong>gratuite</strong></div>
+            </div>
+            <div class="mg-benefit">
+              <div class="mg-benefit-icon"><svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div>Sans <strong>engagement</strong></div>
+            </div>
+            <div class="mg-benefit">
+              <div class="mg-benefit-icon"><svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div>Conseiller <strong>certifié AMF</strong></div>
+            </div>
+            <div class="mg-benefit">
+              <div class="mg-benefit-icon"><svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div>Analyse <strong>personnalisée</strong></div>
+            </div>
+          </div>
+
+          <form id="mgForm" action="https://formsubmit.co/info@decouvrassur.ca" method="POST" onsubmit="handleMgSubmit(event)">
+            <!-- Paramètres FormSubmit.co -->
+            <input type="hidden" name="_subject" value="🏥 DécouvrAssur — Demande Maladies graves / Invalidité">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Bonjour, nous avons bien reçu votre demande de consultation pour l'assurance maladies graves et invalidité. Un conseiller certifié AMF de DécouvrAssur vous contactera sous 24h ouvrables pour analyser votre situation. À très bientôt! — L'équipe DécouvrAssur">
+            <input type="hidden" name="Type de demande" value="Assurance maladies graves et invalidité">
+            <input type="hidden" name="Origine" value="decouvrassur.ca — page assurance-vie">
+
+            <h3 class="mg-form-title">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              Je veux parler à un conseiller
+            </h3>
+
+            <div class="mg-form-group">
+              <label for="mgNom">Prénom et nom</label>
+              <input type="text" id="mgNom" name="Nom complet" placeholder="Jean Tremblay" required />
+            </div>
+
+            <div class="mg-form-row">
+              <div class="mg-form-group">
+                <label for="mgEmail">Courriel</label>
+                <input type="email" id="mgEmail" name="Courriel" placeholder="jean@exemple.com" required />
+              </div>
+              <div class="mg-form-group">
+                <label for="mgTel">Téléphone</label>
+                <input type="tel" id="mgTel" name="Téléphone" placeholder="514 555-1234" maxlength="14" oninput="formatMgPhone(this)" required />
+              </div>
+            </div>
+
+            <button type="submit" class="mg-submit-btn" id="mgSubmitBtn">
+              <span id="mgSubmitText">Demander ma consultation gratuite</span>
+              <svg id="mgSubmitIcon" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </button>
+
+            <p class="mg-disclaimer">
+              <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+              <span>Informations confidentielles — un conseiller vous contactera sous 24h ouvrables.</span>
+            </p>
+          </form>
+
+        </div>
+
+        <!-- État succès -->
+        <div class="mg-success" id="mgSuccess">
+          <div class="mg-success-icon">
+            <svg width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <h3>Demande envoyée avec succès!</h3>
+          <p>Un conseiller certifié AMF vous contactera dans les <strong>24 heures ouvrables</strong> pour analyser votre situation et vous recommander la meilleure protection.</p>
+          <button class="mg-success-close-btn" onclick="closeMaladiesGravesModal()">Fermer</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+  // ═══════════════════════════════════════════════════════════════════════════
+  // POP-UP MALADIES GRAVES & INVALIDITÉ — Capture de lead qualifié
+  // ═══════════════════════════════════════════════════════════════════════════
+  function openMaladiesGravesModal() {
+    document.getElementById('mgModal').classList.add('open');
+    document.body.classList.add('mg-modal-open');
+    // Reset form state
+    document.getElementById('mgFormContent').style.display = 'block';
+    document.getElementById('mgSuccess').classList.remove('show');
+    // Focus premier champ après animation
+    setTimeout(() => { document.getElementById('mgNom')?.focus(); }, 350);
+  }
+
+  function closeMaladiesGravesModal() {
+    document.getElementById('mgModal').classList.remove('open');
+    document.body.classList.remove('mg-modal-open');
+  }
+
+  // Fermer avec ESC
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && document.getElementById('mgModal').classList.contains('open')) {
+      closeMaladiesGravesModal();
+    }
+  });
+
+  // Fermer en cliquant sur le backdrop
+  document.getElementById('mgModal').addEventListener('click', function(e) {
+    if (e.target === this) closeMaladiesGravesModal();
+  });
+
+  // Format du téléphone 514 555-1234
+  function formatMgPhone(inp) {
+    let v = inp.value.replace(/\D/g, '').slice(0, 10);
+    if (v.length > 6) inp.value = v.slice(0,3) + ' ' + v.slice(3,6) + '-' + v.slice(6);
+    else if (v.length > 3) inp.value = v.slice(0,3) + ' ' + v.slice(3);
+    else inp.value = v;
+  }
+
+  // Soumission du formulaire avec fetch (reste sur la page, pas de redirection)
+  async function handleMgSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const btn = document.getElementById('mgSubmitBtn');
+    const textSpan = document.getElementById('mgSubmitText');
+    const icon = document.getElementById('mgSubmitIcon');
+
+    // Validation simple
+    const nom = document.getElementById('mgNom').value.trim();
+    const email = document.getElementById('mgEmail').value.trim();
+    const tel = document.getElementById('mgTel').value.replace(/\D/g,'');
+
+    if (nom.length < 2) { alert('Veuillez entrer votre nom complet.'); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { alert('Veuillez entrer un courriel valide.'); return; }
+    if (tel.length !== 10) { alert('Veuillez entrer un numéro de téléphone valide (10 chiffres).'); return; }
+
+    btn.disabled = true;
+    textSpan.textContent = 'Envoi en cours...';
+    icon.style.display = 'none';
+
+    try {
+      const formData = new FormData(form);
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        // Succès : afficher l'état de succès
+        document.getElementById('mgFormContent').style.display = 'none';
+        document.getElementById('mgSuccess').classList.add('show');
+        // Tracking analytics (si configuré)
+        if (typeof gtag === 'function') gtag('event', 'lead_generated', { type: 'maladies_graves_invalidite' });
+        if (typeof fbq === 'function') fbq('track', 'Lead', { content_name: 'Maladies graves invalidité' });
+      } else {
+        throw new Error('Erreur HTTP ' + res.status);
+      }
+    } catch(err) {
+      console.error('[MG Modal] Erreur envoi:', err);
+      btn.disabled = false;
+      textSpan.textContent = 'Réessayer l\'envoi';
+      icon.style.display = '';
+      alert('Une erreur de connexion est survenue. Veuillez réessayer ou nous contacter directement à info@decouvrassur.ca ou en remplissant le formulaire de soumission générale.');
+    }
+  }
+  </script>
+
+  <script src="main.js"></script>
+</body>
+</html>

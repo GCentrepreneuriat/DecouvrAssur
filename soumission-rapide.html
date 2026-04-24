@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soumission rapide gratuite | DécouvrAssur Québec</title>
+  <meta name="description" content="Obtenez votre soumission d'assurance gratuite en 2 minutes. Assurance vie, auto ou habitation — comparez des dizaines d'assureurs avec un conseiller certifié AMF." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="mainNav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="assurance-auto-habitation.html">Auto & Habitation</a></li>
+        <li><a href="assurance-vie.html">Assurance vie</a></li>
+        <li><a href="guides.html">Guides & conseils</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="soumission-rapide.html" class="nav-cta active">Soumission rapide</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-grid"></div>
+    <div class="page-hero-inner">
+      <div class="hero-badge"><div class="badge-dot"></div>Gratuit · Sans engagement · 2 minutes</div>
+      <h1>Votre soumission <em>en quelques clics</em></h1>
+      <p class="page-hero-sub">Choisissez le type d'assurance qui vous intéresse. Un conseiller certifié AMF prépare votre soumission personnalisée et vous recontacte dans les 24 heures.</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="section-inner">
+      <div class="services-header fade-in">
+        <span class="section-label">Que cherchez-vous?</span>
+        <h2 class="section-title">Sélectionnez votre <em>type d'assurance</em></h2>
+        <p class="section-sub">Remplissez le formulaire correspondant à votre besoin. Vous pouvez en remplir plusieurs si vous souhaitez regrouper vos assurances (et économiser jusqu'à 20 %).</p>
+      </div>
+
+      <div class="soumission-grid">
+
+        <div class="soumission-card fade-in">
+          <div class="soumission-icon vie">
+            <svg width="34" height="34" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+          </div>
+          <h3>Assurance vie</h3>
+          <p>Protégez ceux qui comptent. Temporaire, permanente, maladies graves ou invalidité — on trouve la meilleure combinaison pour votre budget et votre réalité familiale.</p>
+          <a href="https://gcentrepreneuriat.github.io/comparateur-de-prime-assurance-vie/" class="btn-primary" target="_blank" rel="noopener">Démarrer ma soumission <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
+
+        <div class="soumission-card fade-in" style="transition-delay:0.1s">
+          <div class="soumission-icon auto">
+            <svg width="34" height="34" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 17l-2-5h12l-2 5m-8 0h8m-8 0v2a1 1 0 001 1h1a1 1 0 001-1v-2m4 0v2a1 1 0 001 1h1a1 1 0 001-1v-2M5 12V7a2 2 0 012-2h10a2 2 0 012 2v5"/></svg>
+          </div>
+          <h3>Assurance auto</h3>
+          <p>Véhicule personnel, familial ou pour le travail. Plus de 15 assureurs comparés, rabais combinés, et un conseiller qui négocie pour vous. Économie moyenne : 342 $/an.</p>
+          <a href="https://gcentrepreneuriat.github.io/comparateur-assurance-auto/" class="btn-primary" target="_blank" rel="noopener">Démarrer ma soumission <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
+
+        <div class="soumission-card fade-in" style="transition-delay:0.2s">
+          <div class="soumission-icon hab">
+            <svg width="34" height="34" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <h3>Assurance habitation</h3>
+          <p>Propriétaire, copropriétaire ou locataire. Protection complète du bâtiment, des biens et de la responsabilité civile. Rabais important en combinant auto + habitation.</p>
+          <a href="https://gcentrepreneuriat.github.io/comparateur-assurance-habitation/" class="btn-primary" target="_blank" rel="noopener">Démarrer ma soumission <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.3"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-band">
+    <div class="stats-inner">
+      <div class="stat-item"><div class="stat-num">2 min</div><div class="stat-label">Pour compléter</div></div>
+      <div class="stat-item"><div class="stat-num">24 h</div><div class="stat-label">Délai de réponse</div></div>
+      <div class="stat-item"><div class="stat-num">0 $</div><div class="stat-label">Frais pour vous</div></div>
+      <div class="stat-item"><div class="stat-num">AMF</div><div class="stat-label">Conseillers certifiés</div></div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="section-inner">
+      <div class="services-header fade-in">
+        <span class="section-label">Comment ça marche</span>
+        <h2 class="section-title">3 étapes. <em>Aucune surprise.</em></h2>
+        <p class="section-sub">Un processus conçu pour être rapide, clair et 100 % à votre rythme.</p>
+      </div>
+      <div class="service-cards">
+
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background: linear-gradient(135deg, var(--navy), var(--blue)); color: var(--white); font-family: 'Sora', sans-serif; font-weight: 700; font-size: 22px;">1</div>
+          <h3>Vous remplissez</h3>
+          <p>Quelques questions simples sur votre situation : 2 minutes chrono. Aucune donnée sensible sans votre autorisation explicite. Vos informations restent confidentielles.</p>
+        </div>
+
+        <div class="service-card fade-in" style="transition-delay:0.1s">
+          <div class="service-icon" style="background: linear-gradient(135deg, var(--blue), var(--blue-light)); color: var(--white); font-family: 'Sora', sans-serif; font-weight: 700; font-size: 22px;">2</div>
+          <h3>On magasine pour vous</h3>
+          <p>Un conseiller certifié AMF compare votre dossier auprès de dizaines d'assureurs québécois et canadiens. Il sélectionne les 2 à 3 meilleures offres protection/prix.</p>
+        </div>
+
+        <div class="service-card fade-in" style="transition-delay:0.2s">
+          <div class="service-icon" style="background: linear-gradient(135deg, var(--accent), var(--accent-hover)); color: var(--navy); font-family: 'Sora', sans-serif; font-weight: 700; font-size: 22px;">3</div>
+          <h3>Vous choisissez</h3>
+          <p>Un appel de 15 minutes pour vous expliquer les options dans un langage clair. Vous décidez — aucune pression. Si rien ne vous convient, vous ne payez rien. Jamais.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="why-section">
+    <div class="why-inner">
+      <div class="why-text fade-in">
+        <span class="section-label">Réassurance</span>
+        <h2>Vos données, <em>vos règles.</em></h2>
+        <p>Nous comprenons que remplir un formulaire d'assurance en ligne peut soulever des questions. Voici nos engagements fermes envers vous.</p>
+
+        <ul class="why-list">
+          <li>
+            <div class="check-icon"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div>
+            <div><strong>Aucun spam, aucun appel non sollicité.</strong> Vous nous donnez le feu vert avant qu'on vous contacte, et vous pouvez arrêter à tout moment.</div>
+          </li>
+          <li>
+            <div class="check-icon"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div>
+            <div><strong>Vos informations restent au Québec.</strong> Serveurs canadiens, conformité Loi 25. Jamais revendues à des tiers.</div>
+          </li>
+          <li>
+            <div class="check-icon"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div>
+            <div><strong>Soumission = zéro engagement.</strong> Recevoir un prix ne vous oblige à rien. Aucun frais, aucune pénalité si vous ne changez pas d'assureur.</div>
+          </li>
+          <li>
+            <div class="check-icon"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div>
+            <div><strong>Permis AMF valide sur demande.</strong> Chaque conseiller vous fournit son numéro de certification AMF que vous pouvez vérifier en ligne.</div>
+          </li>
+        </ul>
+      </div>
+      <div class="why-visual fade-in" style="transition-delay:0.2s">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=900&fit=crop&auto=format" alt="Processus confidentiel et sécurisé" />
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="faq-inner">
+      <div class="services-header fade-in">
+        <span class="section-label">Questions fréquentes</span>
+        <h2 class="section-title">Ce que vous voulez <em>savoir</em></h2>
+      </div>
+
+      <details class="faq-item fade-in">
+        <summary>Est-ce vraiment gratuit?</summary>
+        <p>Oui, à 100 %. Nous sommes rémunérés par les assureurs — peu importe celui que vous choisissez. Aucun frais caché, aucune carte de crédit demandée, aucun engagement. Si vous ne changez pas d'assureur, vous ne payez rien.</p>
+      </details>
+
+      <details class="faq-item fade-in">
+        <summary>Pourquoi devrais-je passer par DécouvrAssur plutôt que d'appeler directement un assureur?</summary>
+        <p>Un assureur ne peut vous offrir que ses propres produits. Un courtier traditionnel est souvent limité à 2-3 compagnies. Nous comparons des dizaines d'assureurs en un seul formulaire, ce qui vous donne une vue d'ensemble impossible à obtenir autrement — et nos clients économisent en moyenne 342 $ par année.</p>
+      </details>
+
+      <details class="faq-item fade-in">
+        <summary>Combien de temps avant de recevoir ma soumission?</summary>
+        <p>Dans 95 % des cas, vous recevez vos soumissions comparatives en moins de 24 heures ouvrables. Pour les dossiers très simples (auto standard), on peut livrer en quelques heures. Pour les dossiers plus complexes (entrepreneurs, patrimoine élevé), prévoir 48 à 72 heures.</p>
+      </details>
+
+      <details class="faq-item fade-in">
+        <summary>Puis-je faire une soumission pour plusieurs assurances en même temps?</summary>
+        <p>Absolument, et c'est même recommandé. Combiner auto + habitation donne généralement un rabais de 10 à 20 %. Ajouter une assurance vie permet à votre conseiller de bâtir une stratégie de protection cohérente. Remplissez simplement les formulaires qui s'appliquent à vous.</p>
+      </details>
+
+      <details class="faq-item fade-in">
+        <summary>Mes informations sont-elles sécurisées?</summary>
+        <p>Oui. Nos serveurs sont au Canada, nous sommes conformes à la Loi 25 (protection des renseignements personnels au Québec), et vos données ne sont jamais revendues. Seul le conseiller qui traite votre dossier y a accès, et uniquement pour préparer vos soumissions.</p>
+      </details>
+
+      <details class="faq-item fade-in">
+        <summary>Que se passe-t-il après ma soumission?</summary>
+        <p>Un conseiller certifié AMF vous contacte dans les 24 heures (par le moyen que vous préférez : courriel, téléphone ou texto). Il vous présente vos options en 15 minutes. Vous décidez à votre rythme — pas de pression. Si vous choisissez de changer d'assureur, il s'occupe des transferts et annulations pour vous.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Une seule action, jusqu'à 342 $ d'économies.</h2>
+      <p>Choisissez le formulaire qui vous concerne ci-dessus et laissez-nous magasiner à votre place.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /><p class="footer-desc">La plateforme de comparaison d'assurances au Québec. Simple, rapide et entièrement gratuit.</p></div>
+        <div class="footer-col"><h4>Assurances</h4><ul class="footer-links"><li><a href="assurance-vie.html">Assurance vie</a></li><li><a href="assurance-auto-habitation.html">Assurance auto</a></li><li><a href="assurance-auto-habitation.html">Assurance habitation</a></li></ul></div>
+        <div class="footer-col"><h4>Ressources</h4><ul class="footer-links"><li><a href="guides.html">Guides & conseils</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="soumission-rapide.html">Soumission rapide</a></li></ul></div>
+        <div class="footer-col"><h4>Légal</h4><ul class="footer-links"><li><a href="politique-confidentialite.html">Politique de confidentialité</a></li><li><a href="termes-conditions.html">Termes et conditions</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 DécouvrAssur. Tous droits réservés. Service offert au Québec.</p>
+        <div class="footer-legal"><a href="politique-confidentialite.html">Confidentialité</a><a href="termes-conditions.html">Conditions</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

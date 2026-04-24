@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Termes et conditions | DécouvrAssur</title>
+  <meta name="description" content="Termes et conditions d'utilisation du site DécouvrAssur. Plateforme de mise en relation avec des courtiers certifiés AMF au Québec." />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .legal-hero { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, #0D2D5E 100%); padding: calc(var(--nav-height) + 60px) 24px 64px; color: var(--white); position: relative; overflow: hidden; }
+    .legal-hero::before { content:''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 50px 50px; }
+    .legal-hero-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; text-align: center; }
+    .legal-hero-label { display: inline-flex; align-items: center; gap: 8px; background: rgba(245,166,35,0.12); border: 1px solid rgba(245,166,35,0.28); color: var(--accent); padding: 7px 16px; border-radius: 100px; font-size: 12px; font-weight: 600; margin-bottom: 20px; font-family: 'Sora', sans-serif; }
+    .legal-hero h1 { font-size: clamp(32px, 5vw, 48px); font-weight: 800; color: var(--white); line-height: 1.15; margin-bottom: 16px; }
+    .legal-hero p { font-size: 16px; color: rgba(255,255,255,0.65); line-height: 1.7; max-width: 640px; margin: 0 auto; }
+    .legal-date { display: inline-block; margin-top: 20px; padding: 6px 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 100px; font-size: 12px; color: rgba(255,255,255,0.7); font-family: 'Sora', sans-serif; font-weight: 500; }
+    .legal-content { max-width: 820px; margin: 0 auto; padding: 80px 24px 100px; }
+    .legal-toc { background: var(--off-white); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 56px; }
+    .legal-toc h3 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--navy); margin-bottom: 14px; }
+    .legal-toc ol { columns: 2; column-gap: 28px; padding-left: 18px; margin: 0; }
+    .legal-toc li { font-size: 13px; line-height: 1.9; break-inside: avoid; }
+    .legal-toc a { color: var(--text-light); text-decoration: none; transition: color 0.2s; }
+    .legal-toc a:hover { color: var(--blue); }
+    .legal-section { margin-bottom: 48px; scroll-margin-top: 90px; }
+    .legal-section h2 { font-size: 22px; font-weight: 800; color: var(--navy); margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid var(--gray-light); display: flex; align-items: center; gap: 12px; }
+    .legal-section h2 span.num { font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: var(--accent); background: rgba(245,166,35,0.1); padding: 4px 10px; border-radius: 8px; min-width: 36px; text-align: center; }
+    .legal-section h3 { font-size: 17px; font-weight: 700; color: var(--navy); margin: 22px 0 10px; }
+    .legal-section p { font-size: 15px; line-height: 1.75; color: var(--text); margin-bottom: 14px; }
+    .legal-section ul { padding-left: 22px; margin-bottom: 14px; }
+    .legal-section li { font-size: 15px; line-height: 1.75; color: var(--text); margin-bottom: 6px; }
+    .legal-section strong { color: var(--navy); font-weight: 700; }
+    .legal-section .info-box { background: rgba(26,95,168,0.05); border-left: 3px solid var(--blue); padding: 16px 20px; border-radius: 0 10px 10px 0; margin: 16px 0; }
+    .legal-section .warning-box { background: rgba(245,166,35,0.08); border-left: 3px solid var(--accent); padding: 16px 20px; border-radius: 0 10px 10px 0; margin: 16px 0; }
+    .legal-section .info-box p, .legal-section .warning-box p { margin-bottom: 6px; font-size: 14.5px; }
+    .legal-section .info-box p:last-child, .legal-section .warning-box p:last-child { margin-bottom: 0; }
+    .back-top { position: fixed; bottom: 24px; right: 24px; width: 46px; height: 46px; border-radius: 50%; background: var(--navy); color: var(--white); border: none; cursor: pointer; display: none; align-items: center; justify-content: center; box-shadow: var(--shadow-lg); transition: all 0.2s; z-index: 50; }
+    .back-top.visible { display: flex; }
+    .back-top:hover { background: var(--blue); transform: translateY(-2px); }
+    @media(max-width:640px) {
+      .legal-toc ol { columns: 1; }
+      .legal-content { padding: 48px 20px 80px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="mainNav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="assurance-auto-habitation.html">Auto & Habitation</a></li>
+      <li><a href="assurance-vie.html">Assurance vie</a></li>
+      <li><a href="guides.html">Guides & conseils</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="soumission-rapide.html" class="nav-cta">Soumission rapide</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<section class="legal-hero">
+  <div class="legal-hero-inner">
+    <div class="legal-hero-label">
+      <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+      Conditions d'utilisation
+    </div>
+    <h1>Termes et conditions</h1>
+    <p>Les conditions qui encadrent l'utilisation de la plateforme DécouvrAssur. Veuillez en prendre connaissance avant toute utilisation du Site.</p>
+    <div class="legal-date">En vigueur depuis le 1er janvier 2026</div>
+  </div>
+</section>
+
+<div class="legal-content">
+
+  <div class="legal-toc">
+    <h3>Table des matières</h3>
+    <ol>
+      <li><a href="#s1">Acceptation des conditions</a></li>
+      <li><a href="#s2">Nature et rôle de DécouvrAssur</a></li>
+      <li><a href="#s3">Absence de recommandation</a></li>
+      <li><a href="#s4">Limites concernant les partenaires</a></li>
+      <li><a href="#s5">Objet et mission du Site</a></li>
+      <li><a href="#s6">Absence de lien avec Facebook</a></li>
+      <li><a href="#s7">Contenu informatif</a></li>
+      <li><a href="#s8">Utilisation des cookies</a></li>
+      <li><a href="#s9">Engagements et limitations</a></li>
+      <li><a href="#s10">Renseignements personnels</a></li>
+      <li><a href="#s11">Propriété intellectuelle</a></li>
+      <li><a href="#s12">Communications SMS et courriel</a></li>
+      <li><a href="#s13">Coordonnées</a></li>
+      <li><a href="#s14">Acceptation finale</a></li>
+    </ol>
+  </div>
+
+  <div class="legal-section" id="s1">
+    <h2><span class="num">1</span>Acceptation des conditions</h2>
+    <p>Les présentes conditions d'utilisation (ci-après les « <strong>Conditions</strong> ») encadrent l'accès et l'utilisation du site internet DécouvrAssur (ci-après le « <strong>Site</strong> »). Le Site est exploité par DécouvrAssur (ci-après « <strong>DécouvrAssur</strong> », « <strong>nous</strong> » ou « <strong>la Société</strong> »).</p>
+    <p>Toute personne accédant au Site (ci-après l'« <strong>Utilisateur</strong> ») reconnaît avoir pris connaissance des présentes Conditions et les accepter intégralement en cochant la case prévue à cet effet.</p>
+    <p>DécouvrAssur se réserve le droit de modifier, mettre à jour ou remplacer les présentes Conditions à tout moment, sans préavis. La version en vigueur est celle publiée sur le Site au moment de l'utilisation.</p>
+  </div>
+
+  <div class="legal-section" id="s2">
+    <h2><span class="num">2</span>Nature et rôle de DécouvrAssur</h2>
+    <div class="warning-box">
+      <p><strong>DécouvrAssur n'est pas un courtier inscrit auprès de l'Autorité des marchés financiers du Québec (AMF)</strong> et n'offre aucun service de courtage, de conseil personnalisé ou de recommandation en assurance.</p>
+    </div>
+    <p>DécouvrAssur agit exclusivement comme plateforme de mise en relation et de collecte d'informations. Le Site permet aux Utilisateurs de transmettre certaines informations afin d'être mis en contact avec des partenaires indépendants (courtiers, agents ou professionnels autorisés), qui peuvent ensuite préparer et transmettre des soumissions.</p>
+    <p>DécouvrAssur ne détient aucun produit d'assurance, ne représente aucune compagnie d'assurance et n'intervient pas dans la négociation, l'émission ou la gestion de contrats d'assurance.</p>
+  </div>
+
+  <div class="legal-section" id="s3">
+    <h2><span class="num">3</span>Absence de recommandation et responsabilité de l'utilisateur</h2>
+    <p>DécouvrAssur ne recommande pas un partenaire plutôt qu'un autre et ne participe pas au choix final du professionnel avec lequel l'Utilisateur décide de faire affaire. Il appartient exclusivement à l'Utilisateur de :</p>
+    <ul>
+      <li>vérifier le permis, l'inscription et le droit d'exercice du partenaire auprès de l'AMF;</li>
+      <li>poser les questions nécessaires afin de bien comprendre l'analyse de ses besoins;</li>
+      <li>valider les offres, prix, protections et conditions directement avec le partenaire choisi.</li>
+    </ul>
+    <p>Avant de conclure toute entente, l'Utilisateur est invité à demander une <strong>preuve de permis valide délivré par l'AMF</strong>.</p>
+  </div>
+
+  <div class="legal-section" id="s4">
+    <h2><span class="num">4</span>Limites concernant les partenaires</h2>
+    <p>Bien que DécouvrAssur s'efforce de collaborer avec des partenaires reconnus et autorisés, aucune garantie n'est offerte quant :</p>
+    <ul>
+      <li>à la qualité des services rendus;</li>
+      <li>à l'exactitude des soumissions;</li>
+      <li>aux prix proposés;</li>
+      <li>aux délais, conditions ou résultats.</li>
+    </ul>
+    <p>DécouvrAssur n'est pas partie aux contrats conclus entre l'Utilisateur et un partenaire et ne peut être tenue responsable des dommages, pertes ou litiges découlant de ces relations.</p>
+  </div>
+
+  <div class="legal-section" id="s5">
+    <h2><span class="num">5</span>Objet et mission du Site</h2>
+    <p>Le Site a pour objectif de :</p>
+    <ul>
+      <li>simplifier la recherche de solutions d'assurance;</li>
+      <li>centraliser la collecte d'informations;</li>
+      <li>faciliter l'obtention de soumissions auprès de partenaires qualifiés.</li>
+    </ul>
+    <div class="info-box">
+      <p>Le service offert par DécouvrAssur est :</p>
+      <p>✓ <strong>gratuit</strong> — aucuns frais pour l'Utilisateur</p>
+      <p>✓ <strong>sans engagement</strong> — aucune obligation de souscrire</p>
+      <p>✓ <strong>accessible à des fins d'information et de mise en relation uniquement</strong></p>
+    </div>
+  </div>
+
+  <div class="legal-section" id="s6">
+    <h2><span class="num">6</span>Absence de lien avec Facebook et plateformes tierces</h2>
+    <p>Le Site DécouvrAssur <strong>n'est affilié à aucune plateforme de Meta</strong>, incluant Facebook, Instagram, WhatsApp ou toute autre entité du groupe Meta Platforms Inc. Aucune approbation, validation ou commandite n'a été accordée par ces entreprises, présentes ou futures.</p>
+  </div>
+
+  <div class="legal-section" id="s7">
+    <h2><span class="num">7</span>Contenu informatif – absence de conseil professionnel</h2>
+    <p>Les informations publiées sur DécouvrAssur sont fournies <strong>à titre informatif seulement</strong> et ne constituent en aucun cas :</p>
+    <ul>
+      <li>un avis professionnel;</li>
+      <li>un conseil financier;</li>
+      <li>une recommandation personnalisée en assurance.</li>
+    </ul>
+    <p>Bien que des efforts raisonnables soient déployés pour assurer l'exactitude du contenu, des erreurs ou omissions peuvent survenir.</p>
+  </div>
+
+  <div class="legal-section" id="s8">
+    <h2><span class="num">8</span>Utilisation des cookies et outils de suivi</h2>
+    <p>Le Site utilise des fichiers témoins (« cookies ») afin d'améliorer l'expérience utilisateur et analyser la navigation. Ces cookies ne contiennent aucune information sensible ou confidentielle et peuvent être désactivés à tout moment via les paramètres du navigateur de l'Utilisateur.</p>
+    <p>DécouvrAssur utilise notamment des outils d'analyse tels que <strong>Google Analytics</strong>. Les données collectées peuvent être transmises et conservées par Google conformément à ses propres politiques de confidentialité.</p>
+  </div>
+
+  <div class="legal-section" id="s9">
+    <h2><span class="num">9</span>Engagements et limitations de responsabilité</h2>
+
+    <h3>9.1 Obligation de moyens</h3>
+    <p>DécouvrAssur s'engage à exercer ses activités avec diligence et professionnalisme, sans toutefois garantir un résultat précis.</p>
+
+    <h3>9.2 Limitation générale</h3>
+    <p>Dans les limites permises par la loi, DécouvrAssur, ses dirigeants, employés, représentants et partenaires déclinent toute responsabilité pour tout dommage direct ou indirect résultant :</p>
+    <ul>
+      <li>de l'utilisation ou de l'impossibilité d'utiliser le Site;</li>
+      <li>d'interruptions, erreurs techniques ou problèmes informatiques;</li>
+      <li>de virus ou éléments nuisibles.</li>
+    </ul>
+
+    <h3>9.3 Contenu et liens externes</h3>
+    <p>DécouvrAssur n'endosse pas le contenu des sites tiers accessibles par hyperliens et ne peut être tenue responsable de leur contenu ou de leur fonctionnement.</p>
+  </div>
+
+  <div class="legal-section" id="s10">
+    <h2><span class="num">10</span>Renseignements personnels</h2>
+    <p>L'Utilisateur est responsable de l'exactitude des renseignements fournis. DécouvrAssur ne vérifie pas les informations transmises et décline toute responsabilité découlant d'informations erronées ou incomplètes.</p>
+    <p>Les renseignements personnels sont collectés et traités conformément à la <a href="politique-confidentialite.html" style="color:var(--blue);font-weight:600;">Politique de confidentialité du Site</a>.</p>
+  </div>
+
+  <div class="legal-section" id="s11">
+    <h2><span class="num">11</span>Propriété intellectuelle</h2>
+    <p>L'ensemble du contenu du Site (textes, visuels, marques, logos, structure, fonctionnalités) est la propriété exclusive de DécouvrAssur et est protégé par les lois applicables en matière de propriété intellectuelle. Toute reproduction, diffusion ou utilisation non autorisée est strictement interdite sans consentement écrit préalable.</p>
+    <p>Le partage de liens vers le Site est autorisé, à condition de ne pas :</p>
+    <ul>
+      <li>altérer le contenu;</li>
+      <li>utiliser le contenu à des fins trompeuses;</li>
+      <li>faire de fausses déclarations au nom de DécouvrAssur.</li>
+    </ul>
+  </div>
+
+  <div class="legal-section" id="s12">
+    <h2><span class="num">12</span>Communications par SMS et courriel</h2>
+    <p>L'Utilisateur peut se désinscrire des communications SMS à tout moment en répondant « <strong>STOP</strong> ». Une confirmation de désinscription sera envoyée. Aucune communication ultérieure ne sera transmise sans nouvelle inscription volontaire.</p>
+  </div>
+
+  <div class="legal-section" id="s13">
+    <h2><span class="num">13</span>Coordonnées DécouvrAssur</h2>
+    <div class="info-box">
+      <p>Site web : <strong>www.decouvrassur.ca</strong></p>
+      <p>Courriel : <strong>info@decouvrassur.ca</strong></p>
+      <p>Téléphone : [à confirmer]</p>
+    </div>
+  </div>
+
+  <div class="legal-section" id="s14">
+    <h2><span class="num">14</span>Acceptation finale</h2>
+    <p>En utilisant le Site et en acceptant les présentes Conditions, l'Utilisateur reconnaît :</p>
+    <ul>
+      <li>avoir lu et compris l'ensemble des dispositions;</li>
+      <li>accepter les limitations de responsabilité;</li>
+      <li>consentir à la collecte et au traitement de ses renseignements conformément aux politiques en vigueur.</li>
+    </ul>
+  </div>
+
+</div>
+
+<button class="back-top" id="backTop" aria-label="Retour en haut">
+  <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
+</button>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo"><img src="https://static.wixstatic.com/media/04873b_73b9188d08344be38f32122a32607912~mv2.png" alt="DécouvrAssur" /><p class="footer-desc">La plateforme de comparaison d'assurances au Québec. Simple, rapide et entièrement gratuit.</p></div>
+      <div class="footer-col"><h4>Assurances</h4><ul class="footer-links"><li><a href="assurance-vie.html">Assurance vie</a></li><li><a href="assurance-auto-habitation.html">Assurance auto</a></li><li><a href="assurance-auto-habitation.html">Assurance habitation</a></li></ul></div>
+      <div class="footer-col"><h4>Ressources</h4><ul class="footer-links"><li><a href="guides.html">Guides & conseils</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="soumission-rapide.html">Soumission rapide</a></li></ul></div>
+      <div class="footer-col"><h4>Légal</h4><ul class="footer-links"><li><a href="politique-confidentialite.html">Politique de confidentialité</a></li><li><a href="termes-conditions.html">Termes et conditions</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 DécouvrAssur. Tous droits réservés. Service offert au Québec.</p>
+      <div class="footer-legal"><a href="politique-confidentialite.html">Confidentialité</a><a href="termes-conditions.html">Conditions</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+(function(){
+  const btn = document.getElementById('backTop');
+  window.addEventListener('scroll', function(){
+    btn.classList.toggle('visible', window.scrollY > 400);
+  });
+  btn.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
